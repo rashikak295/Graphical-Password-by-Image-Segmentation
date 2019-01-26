@@ -1,0 +1,15 @@
+<html>
+<head>
+<script type="text/javaScript">
+function disableBackButton()
+{
+window.history.forward();
+}
+setTimeout("disableBackButton()", 0);
+</script>
+</head>
+<body onload="disableBackButton()">
+<input type="button" name="b1" value="b1"/>
+ <a href="z.html">Click me</a> 
+</body>
+</html>
